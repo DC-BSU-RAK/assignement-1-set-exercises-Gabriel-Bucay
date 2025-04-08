@@ -1,0 +1,64 @@
+/* Font style */
+body {
+    font-family: Arial, sans-serif;
+    color: #e4dfdf;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    position: relative;
+}
+/* Name of the Recipe Style */
+h1 {
+    color: #e4dfdf;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* Description of the Recipe Style */
+p {
+    font-size: 1.1em;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+/* Ingredients used and Steps Style */
+h2 {
+    color: #e4dfdf;
+    border-bottom: 2px solid #ddd;
+    width: 40%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    padding-bottom: 5px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+/* Lists Styling */
+ul, ol {
+    margin-left: 40px;
+    width: 900px
+}
+
+ul li, ol li {
+    margin-bottom: 10px;
+    margin: 10px;
+}
+
+
+/* background code */
+body::before {
+    content: "";
+    background-color:rgb(255, 98, 0);
+    background-image: url('Black_Pepper_Beef.jpg');
+    background-size: contain;
+    background-position: right center;
+    background-repeat: no-repeat;
+    opacity: 1; /*opacity slider*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1; /* Places it behind everything */
+}
+

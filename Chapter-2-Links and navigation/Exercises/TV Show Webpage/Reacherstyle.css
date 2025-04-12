@@ -1,0 +1,224 @@
+/* Fits Everything and keeps them in place */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Helps with Scrolling */
+html {
+    scroll-padding-top: 130px;
+}
+
+/* Default style for whole page */
+body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #FCFBF4;
+}
+
+/* Keeps everything symmetrical */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* HEADER STYLES */
+
+/* Header styles */
+header {
+    position: absolute; /* Allows precise positioning */
+    top: 20px; /* Sets the header at the top of the page */
+    left: 20px; /* Aligns the header to the left */
+    color: #fcfcfc;
+}
+
+/* TITLE STYLE */
+header h1 {
+    position: fixed; /* Allows precise positioning */
+    top: 20px; /* Places the header near the top */
+    left: 5px; /* Aligns the header to the left */
+    font-size: 40px; /* Sets a large font size */
+    font-weight: 900; /* Makes the text bold */
+    color: #fcfcfc; /* Sets the text color */
+    z-index: 100; /* makes sure it's above everything else */
+}
+
+/* NAVIGATION MENU */
+
+/* Styles for the vertical navigation bar */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200px;
+    background-color: #FCB454;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* List styling */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%; /* Distribute buttons evenly within available space */
+}
+
+/* Button links styling */
+nav ul li a {
+    color: #f4f4f4;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #FCB454;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900; 
+}
+
+/* Hover effect for buttons */
+nav ul li a:hover {
+    background-color: #777; /* Button changes color when hovered */
+}
+
+/* MAIN PAGE CONTENT */
+
+main {
+    padding: 40px 0;
+}
+
+/* Space between sections with background and soft edges */
+section {
+    margin-bottom: 50px;
+    background-color: #FCFBF4;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Section titles */
+h2 {
+    color: #FCB454;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f0f0f0;
+    font-size: 28px;
+    text-align: center;
+}
+
+/* Smaller titles inside sections */
+h3 {
+    color: #FCB454;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+/* Space after each paragraph */
+p {
+    margin-bottom: 15px;
+}
+
+/* LAYOUT STYLES */
+
+/* Makes the "Key Info" section display in a grid (rows and columns) */
+.dt-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 20px;
+}
+
+/* Makes the cast list show in two columns */
+.Cast-list {
+    column-count: 2;
+    list-style-position: inside;
+    margin-left: 20px;
+}
+
+.Cast-list li {
+    margin-bottom: 10px;
+}
+
+/* Each character bio has some space and a line between them */
+.character {
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+/* No line under the last character */
+.character:last-child {
+    border-bottom: none;
+}
+
+/* Reviews are styled like quotes */
+.reviews {
+    background-color: #FCFBF4;
+    border-left: 4px solid #FCB454;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 0 5px 5px 0;
+}
+
+/* Review source is shown on the right in italic */
+.reviews cite {
+    display: block;
+    text-align: right;
+    font-style: italic;
+    color: #666;
+}
+
+/* BUTTON STYLES */
+
+/* Centers the button */
+.button-container {
+    text-align: center;
+    margin: 40px 0;
+}
+
+/* Style for the big blue button */
+.button {
+    display: inline-block;
+    background-color: #FCB454;
+    color: #FCFBF4;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* When you hover over the button */
+.button:hover {
+    background-color: #a97c41;
+    transform: translateY(-2px); /* Moves it up a little */
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* When you click the button */
+.button:active {
+    transform: translateY(0);
+}
+
+/* FOOTER STYLES */
+
+/* The area at the very bottom of the page */
+footer {
+    background-color: #333;
+    color: #FCFBF4;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+}

@@ -1,93 +1,93 @@
 /* Set the default font and background for the whole page */
 body {
-    font-family: Arial, sans-serif; /* Sets the main font */
-    font-weight: 400;               /* Normal font weight */
-    margin: 0;                      /* Removes default space around the page */
-    color: #000;                    /* Sets text color to black */
-    background: #fff;              /* Sets background color to white */
+    font-family: Arial, sans-serif; 
+    font-weight: 400;               
+    margin: 0;                      
+    color: #000;                    
+    background: #fff;              
   }
   
   /* Styles for the top of the page */
   header {
-    background-color: #17072b;     /* Dark purple background */
-    color: #fff;                   /* White text */
-    text-align: center;            /* Centers the text */
-    padding: 1rem 0;               /* Adds space above and below the text */
-    font-family: Tahoma, sans-serif; /* Sets a different font just for the header */
-    font-weight: 700;              /* Makes the text bold */
+    background-color: #17072b;     
+    color: #fff;                   
+    text-align: center;            
+    padding: 1rem 0;               
+    font-family: Tahoma, sans-serif; 
+    font-weight: 700;             
   }
   
   /* Styles the main heading in the header */
   header h1 {
-    margin: 0;                     /* Removes default space */
-    text-decoration: underline;   /* Adds a line under the text */
+    margin: 0;                    
+    text-decoration: underline;   
   }
   
   /* Styles the navigation menu list */
   nav ul {
-    display: flex;                /* Puts the menu items in a row */
-    justify-content: center;     /* Centers the menu */
-    gap: 2rem;                    /* Adds space between each item */
-    padding: 1rem 0;              /* Adds space above and below */
-    list-style: none;            /* Removes the bullet points */
-    margin: 0;                    /* Removes default margin */
+    display: flex;               
+    justify-content: center;     
+    gap: 2rem;                    
+    padding: 1rem 0;              
+    list-style: none;            
+    margin: 0;                    
   }
   
   /* Styles the navigation menu links */
   nav a {
-    color: #fff;                  /* Makes links white */
-    text-decoration: none;       /* Removes underline from links */
+    color: #fff;                  
+    text-decoration: none;       
   }
   
   /* Styles the main content section */
   main {
-    display: flex;                /* Puts sections side by side */
-    padding: 2rem;                /* Adds space around the content */
-    gap: 2rem;                    /* Adds space between sections */
+    display: flex;                
+    padding: 2rem;                
+    gap: 2rem;                    
   }
   
   /* Styles the welcome section */
   .welcome {
-    flex: 1;                      /* Takes up half of the space */
+    flex: 1;                      
   }
   
   /* Styles the heading in the welcome section */
   .welcome h2 {
-    font-weight: 700;             /* Makes the text bold */
-    border-bottom: 3px solid #000; /* Adds a black underline */
-    display: inline-block;        /* Shrinks border to just under the text */
+    font-weight: 700;             
+    border-bottom: 3px solid #000; 
+    display: inline-block;        
   }
   
   /* Styles the image in the welcome section */
   .welcome img {
-    height: 72.7%;                /* Sets the image height */
-    width: 100%;                  /* Makes the image stretch across the section */
-    margin-top: 1rem;             /* Adds space above the image */
+    height: 72.7%;                
+    width: 100%;                  
+    margin-top: 1rem;             
   }
   
   /* Styles the line-up section (sidebar) */
   .lineup {
-    flex: 1;                      /* Takes up half of the space */
-    background-color: #172d67;   /* Dark blue background */
-    color: #fff;                  /* White text */
-    padding: 1.5rem;              /* Adds space inside the box */
-    max-height: 638px;            /* Limits how tall it can be */
+    flex: 1;                      
+    background-color: #172d67;   
+    color: #fff;                  
+    padding: 1.5rem;              
+    max-height: 638px;            
   }
   
   /* Styles the heading in the line-up section */
   .lineup h2 {
-    font-weight: 700;             /* Makes the text bold */
-    text-decoration: underline;   /* Underlines the text */
+    font-weight: 700;             
+    text-decoration: underline;   
   }
   
   /* Styles the list in the line-up section */
   .lineup ul {
-    padding-left: 1rem;           /* Adds space on the left side of the list */
+    padding-left: 1rem;           
   }
   
   /* Styles each item in the list */
   .lineup li {
-    margin-bottom: 0.5rem;        /* Adds space below each item */
+    margin-bottom: 0.5rem;        
   }
   
   /* Styles the image container inside the lineup section */

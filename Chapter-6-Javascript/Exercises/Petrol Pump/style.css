@@ -1,0 +1,27 @@
+/* Set default styles for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Style for the body of the page */
+body {
+    background: linear-gradient(135deg, #cdebd7, #c3cfe2); 
+    min-height: 100vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 30px;
+}
+
+/* The box that holds the calculator */
+.calcu-container {
+    background-color: white;
+    border-radius: 12px; 
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); 
+    padding: 30px;
+    width: 100%;
+    max-width: 450px; 
+}
